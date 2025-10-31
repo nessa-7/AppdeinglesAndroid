@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MiAppVanessa</string>
+    <string name="titulo">Bienvenido a mi App</string>
+    <string name="boton">Siguiente</string>
+    <string name="botoncolores">Colores</string>
+    <string name="botonanimales">Animales</string>
+    <string name="botonfrutas">Frutas</string>
+    <string name="botonnumeros">Numeros</string>
+    <string name="menu">Menu</string>
+    <string name="titulocolores">Colores</string>
+    <string name="tituloanimales">Animales</string>
+    <string name="titulofrutas">Frutas</string>
+    <string name="titulonumeros">Numeros</string>
+    <string name="botonvolver">Volver</string>
+    <string name="textomanzana">Apple</string>
+    <string name="textofresa">Strawberry</string>
+    <string name="textouvas">Grapes</string>
+    <string name="textoazul">Blue</string>
+    <string name="textomorado">Purple</string>
+    <string name="textorosado">Pink</string>
+    <string name="textogato">Cat</string>
+    <string name="textoperro">Dog</string>
+    <string name="textoconejo">Rabbit</string>
+    <string name="textonuno">One</string>
+    <string name="textondos">Two</string>
+    <string name="textontres">Three</string>
+
+
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo3"
+    tools:context=".Animales">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/tituloanimales"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:layout_marginBottom="30dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageButton
+            android:onClick="sonarCat"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gato" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/textogato"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageButton
+            android:onClick="sonarDog"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/perro"
+            />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/textoperro"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageButton
+            android:onClick="sonarConejo"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/conejo"
+            />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="@string/textoconejo"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        >
+
+        <Button
+            android:onClick="volverMenu"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="120dp"
+            android:backgroundTint="@color/lila"
+            android:text="@string/botonvolver"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/kuromifrutas"
+            android:layout_marginRight="40dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

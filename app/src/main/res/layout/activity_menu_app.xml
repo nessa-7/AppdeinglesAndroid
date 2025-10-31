@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuApp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/menu"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+    />
+
+    <Button
+        android:onClick="irColores"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/botoncolores"
+        android:backgroundTint="@color/blue"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+    />
+
+    <Button
+        android:onClick="irAnimales"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/botonanimales"
+        android:backgroundTint="@color/pink"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        />
+
+    <Button
+        android:onClick="irFrutas"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/botonfrutas"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        />
+
+    <Button
+        android:onClick="irNumeros"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/botonnumeros"
+        android:backgroundTint="@color/purple"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        />
+
+</LinearLayout>
