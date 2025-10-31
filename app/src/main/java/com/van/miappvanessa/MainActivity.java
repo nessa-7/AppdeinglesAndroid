@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void irMenu(View view){
-        Intent siguiente = new Intent(MainActivity.this,MenuApp.class);
+    public void irOpciones(View view){
+        Intent siguiente = new Intent(MainActivity.this,Opciones.class);
         startActivity(siguiente);
     }
 }

@@ -25,5 +25,10 @@
     <string name="textondos">Two</string>
     <string name="textontres">Three</string>
 
+    <string name="botonaprender">Aprender 💡</string>
+    <string name="botonjugar">Jugar  😼</string>
+
+    <string name="tituloClic">Clic Para Escuchar La Pregunta</string>
+
 
 </resources>

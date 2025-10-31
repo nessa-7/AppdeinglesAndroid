@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo4"
+    tools:context=".Opciones">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:src="@drawable/kuromilibro"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:onClick="irMenu"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/botonaprender"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/lila"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:fontFamily="sans-serif-smallcaps"
+            />
+
+        <Button
+            android:onClick="irPregunta1"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/botonjugar"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/lila"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:fontFamily="sans-serif-smallcaps"
+            />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center"
+            >
+
+            <Button
+                android:onClick="volverMenu"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="120dp"
+                android:backgroundTint="@color/lila"
+                android:text="@string/botonvolver"
+                android:textSize="15sp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/kuromifrutas"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>

@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/titulocolores"
         android:textAlignment="center"
@@ -29,7 +29,8 @@
         android:layout_height="150dp"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="50dp"
         >
 
 
@@ -62,7 +63,7 @@
         android:layout_height="150dp"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         >
 
         <ImageButton
@@ -95,7 +96,7 @@
         android:layout_height="150dp"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         >
 
         <ImageButton
@@ -124,10 +125,11 @@
 
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
         >
 
         <Button
@@ -139,14 +141,12 @@
             android:text="@string/botonvolver"
             android:textSize="15sp"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="50dp"
             />
 
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/kuromifrutas"
-            android:layout_marginRight="40dp"
             />
 
     </LinearLayout>

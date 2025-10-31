@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/menu"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
     />
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_gravity="center"
         android:textSize="50sp"
         android:fontFamily="sans-serif-smallcaps"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:textAlignment="center"
         android:textColor="@color/black"
     />
@@ -33,7 +33,7 @@
         android:onClick="irColores"
         android:layout_width="300dp"
         android:layout_height="70dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:text="@string/botoncolores"
         android:backgroundTint="@color/blue"
         android:layout_gravity="center"
@@ -44,7 +44,7 @@
         android:onClick="irAnimales"
         android:layout_width="300dp"
         android:layout_height="70dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:text="@string/botonanimales"
         android:backgroundTint="@color/pink"
         android:layout_gravity="center"
@@ -55,7 +55,7 @@
         android:onClick="irFrutas"
         android:layout_width="300dp"
         android:layout_height="70dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:text="@string/botonfrutas"
         android:backgroundTint="@color/green"
         android:layout_gravity="center"
@@ -66,11 +66,38 @@
         android:onClick="irNumeros"
         android:layout_width="300dp"
         android:layout_height="70dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:text="@string/botonnumeros"
         android:backgroundTint="@color/purple"
         android:layout_gravity="center"
         android:textSize="17sp"
         />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:onClick="volverMenu"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="120dp"
+            android:backgroundTint="@color/lila"
+            android:text="@string/botonvolver"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/kuromifrutas"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>

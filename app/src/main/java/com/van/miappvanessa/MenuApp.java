@@ -37,4 +37,9 @@ public class MenuApp extends AppCompatActivity {
         Intent numeros = new Intent(MenuApp.this,Numeros.class);
         startActivity(numeros);
     }
+
+    public void volverMenu(View view){
+        Intent volver = new Intent(MenuApp.this,Opciones.class);
+        startActivity(volver);
+    }
 }

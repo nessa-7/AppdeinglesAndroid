@@ -7,4 +7,6 @@
     <color name="pink">#F87DFA</color>
     <color name="green">#17D044</color>
     <color name="lila">#B69BE7</color>
+    <color name="lilaclaro">#F2EBFF</color>
+    <color name="transparente">#00FFFFFF</color>
 </resources>
