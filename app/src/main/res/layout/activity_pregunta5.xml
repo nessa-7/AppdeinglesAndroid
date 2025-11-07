@@ -5,12 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo6"
     android:orientation="vertical"
-    tools:context=".Pregunta3">
+    android:background="@drawable/fondo6"
+    tools:context=".Pregunta5">
 
     <Button
-        android:onClick="sonarPurple"
+        android:onClick="sonarConejo"
         android:layout_width="350dp"
         android:layout_height="120dp"
         android:backgroundTint="@color/transparente"
@@ -41,10 +41,10 @@
             android:layout_marginRight="20dp"
             android:background="@null"
             android:scaleType="fitCenter"
-            android:src="@drawable/azul" />
+            android:src="@drawable/tres" />
 
         <ImageButton
-            android:onClick="sonarIncorrecto"
+            android:onClick="sonarCorrecto"
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="left"
@@ -53,7 +53,7 @@
             android:layout_marginLeft="20dp"
             android:background="@null"
             android:scaleType="fitCenter"
-            android:src="@drawable/rosado"
+            android:src="@drawable/conejo"
             />
 
     </LinearLayout>
@@ -67,7 +67,7 @@
         >
 
         <ImageButton
-            android:onClick="sonarCorrecto"
+            android:onClick="sonarIncorrecto"
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="left"
@@ -76,7 +76,7 @@
             android:layout_marginRight="20dp"
             android:background="@null"
             android:scaleType="fitCenter"
-            android:src="@drawable/morado" />
+            android:src="@drawable/rosado" />
 
         <ImageButton
             android:onClick="sonarIncorrecto"
@@ -88,8 +88,9 @@
             android:layout_marginLeft="20dp"
             android:background="@null"
             android:scaleType="fitCenter"
-            android:src="@drawable/verde"
+            android:src="@drawable/uvas"
             />
 
     </LinearLayout>
+
 </LinearLayout>

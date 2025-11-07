@@ -10,25 +10,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Opciones extends AppCompatActivity {
+public class Final extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_opciones);
-    }
-
-    public void irMenu(View view){
-        Intent siguiente = new Intent(Opciones.this,MenuApp.class);
-        startActivity(siguiente);
+        setContentView(R.layout.activity_final);
     }
 
     public void volverMenu(View view){
-        Intent volver = new Intent(Opciones.this,MainActivity.class);
+        Intent volver = new Intent(Final.this,Opciones.class);
         startActivity(volver);
-    }
-    public void irPregunta1(View view){
-        Intent pregunta1 = new Intent(Opciones.this,Pregunta1.class);
-        startActivity(pregunta1);
     }
 }

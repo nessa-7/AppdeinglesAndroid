@@ -9,8 +9,9 @@
     android:orientation="vertical"
     tools:context=".Pregunta2">
 
+
     <Button
-        android:onClick="sonarUvas"
+        android:onClick="sonarFresa"
         android:layout_width="350dp"
         android:layout_height="120dp"
         android:backgroundTint="@color/transparente"
@@ -32,7 +33,7 @@
         >
 
         <ImageButton
-            android:onClick="sonarIncorrecto"
+            android:onClick="sonarCorrecto"
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="left"
@@ -44,7 +45,7 @@
             android:src="@drawable/fresa" />
 
         <ImageButton
-            android:onClick="sonarCorrecto"
+            android:onClick="sonarIncorrecto"
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="left"

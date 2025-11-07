@@ -18,17 +18,12 @@ public class Pregunta2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_pregunta2);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
     }
 
-    public void sonarUvas(View view){
-        sonido = MediaPlayer.create(Pregunta2.this,R.raw.grapesaudio);
+    public void sonarFresa(View view){
+        sonido = MediaPlayer.create(Pregunta2.this,R.raw.strawberryaudio);
         sonido.start();
     }
     public void sonarCorrecto(View view){

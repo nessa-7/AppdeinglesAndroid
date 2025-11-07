@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo4"
+    tools:context=".Final">
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:textSize="60dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="@string/felicidades"
+        />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/huh"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="292dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/felicidades2"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        />
+
+
+
+        <Button
+            android:onClick="volverMenu"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/lila"
+            android:text="@string/volvermenu"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+
+            />
+
+
+
+</LinearLayout>

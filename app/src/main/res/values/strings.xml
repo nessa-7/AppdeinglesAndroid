@@ -30,5 +30,9 @@
 
     <string name="tituloClic">Clic Para Escuchar La Pregunta</string>
 
+    <string name="volvermenu">Volver al menú principal</string>
+    <string name="felicidades">¡Felicidades!</string>
+    <string name="felicidades2">Has terminado el juego</string>
+
 
 </resources>

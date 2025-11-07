@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MiAppVanessa">
         <activity
+            android:name=".Final"
+            android:exported="false" />
+        <activity
+            android:name=".Pregunta5"
+            android:exported="false" />
+        <activity
+            android:name=".Pregunta4"
+            android:exported="false" />
+        <activity
             android:name=".Pregunta3"
             android:exported="false" />
         <activity
