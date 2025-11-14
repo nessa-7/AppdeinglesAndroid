@@ -4,9 +4,13 @@
     <color name="gris">#545454</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#14BCD5</color>
+    <color name="blue2">#5A14BCD5</color>
     <color name="purple">#8356DB</color>
+    <color name="purple2">#588356DB</color>
     <color name="pink">#F87DFA</color>
+    <color name="pink2">#5CF87DFA</color>
     <color name="green">#17D044</color>
+    <color name="green2">#5C17D044</color>
     <color name="lila">#B69BE7</color>
     <color name="lilaclaro">#F2EBFF</color>
     <color name="transparente">#00FFFFFF</color>
