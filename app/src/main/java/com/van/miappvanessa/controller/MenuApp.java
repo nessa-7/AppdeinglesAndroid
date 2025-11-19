@@ -1,4 +1,4 @@
-package com.van.miappvanessa;
+package com.van.miappvanessa.controller;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,15 +6,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.van.miappvanessa.R;
 
 public class MenuApp extends AppCompatActivity {
 
@@ -103,27 +100,27 @@ public class MenuApp extends AppCompatActivity {
         });
     }
     public void irColores(View view){
-        Intent colores = new Intent(MenuApp.this,Colores.class);
+        Intent colores = new Intent(MenuApp.this, Colores.class);
         startActivity(colores);
     }
 
     public void irAnimales(View view){
-        Intent animales = new Intent(MenuApp.this,Animales.class);
+        Intent animales = new Intent(MenuApp.this, Animales.class);
         startActivity(animales);
     }
 
     public void irFrutas(View view){
-        Intent frutas = new Intent(MenuApp.this,Frutas.class);
+        Intent frutas = new Intent(MenuApp.this, Frutas.class);
         startActivity(frutas);
     }
 
     public void irNumeros(View view){
-        Intent numeros = new Intent(MenuApp.this,Numeros.class);
+        Intent numeros = new Intent(MenuApp.this, Numeros.class);
         startActivity(numeros);
     }
 
     public void volverMenu(View view){
-        Intent volver = new Intent(MenuApp.this,Opciones.class);
+        Intent volver = new Intent(MenuApp.this, Opciones.class);
         startActivity(volver);
     }
 

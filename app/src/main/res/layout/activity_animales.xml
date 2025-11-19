@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/fondo3"
-    tools:context=".Animales">
+    tools:context=".controller.Animales">
 
     <TextView
         android:layout_width="match_parent"

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo3"
     android:orientation="vertical"
-    tools:context=".Frutas">
+    tools:context=".controller.Frutas">
 
     <TextView
         android:layout_width="match_parent"

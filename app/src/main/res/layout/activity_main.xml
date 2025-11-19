@@ -3,42 +3,53 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@drawable/fondo2"
+    android:background="@drawable/fondo4"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_gravity="center_horizontal"
+    tools:context=".controller.MainActivity">
 
 
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="130dp"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
         android:text="@string/titulo"
         android:layout_gravity="center"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textColor="@color/black"
         android:fontFamily="sans-serif-smallcaps"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="110dp"
          />
 
+
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/inicio"
-        android:layout_marginTop="50dp"
+        android:id="@+id/miGif"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
         android:layout_gravity="center"
+        android:layout_marginTop="50dp"
         />
 
+
     <Button
-        android:onClick="irOpciones"
-        android:layout_width="250dp"
+        android:onClick="irRegistro"
+        android:layout_width="400dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:text="@string/boton"
         android:textSize="30sp"
         android:backgroundTint="@color/lila"
+        />
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="250dp"
+        android:src="@drawable/inicio"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
         />
 
 

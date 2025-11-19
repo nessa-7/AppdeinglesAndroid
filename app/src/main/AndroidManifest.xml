@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,45 +12,49 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MiAppVanessa">
+        android:theme="@style/Theme.MiAppVanessa"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".Final"
+            android:name=".controller.Registro"
             android:exported="false" />
         <activity
-            android:name=".Pregunta5"
+            android:name=".controller.Final"
             android:exported="false" />
         <activity
-            android:name=".Pregunta4"
+            android:name=".controller.Pregunta5"
             android:exported="false" />
         <activity
-            android:name=".Pregunta3"
+            android:name=".controller.Pregunta4"
             android:exported="false" />
         <activity
-            android:name=".Pregunta2"
+            android:name=".controller.Pregunta3"
             android:exported="false" />
         <activity
-            android:name=".Pregunta1"
+            android:name=".controller.Pregunta2"
             android:exported="false" />
         <activity
-            android:name=".Opciones"
+            android:name=".controller.Pregunta1"
             android:exported="false" />
         <activity
-            android:name=".Numeros"
+            android:name=".controller.Opciones"
             android:exported="false" />
         <activity
-            android:name=".Frutas"
+            android:name=".controller.Numeros"
             android:exported="false" />
         <activity
-            android:name=".Animales"
+            android:name=".controller.Frutas"
             android:exported="false" />
         <activity
-            android:name=".Colores"
+            android:name=".controller.Animales"
             android:exported="false" />
         <activity
-            android:name=".MenuApp"
+            android:name=".controller.Colores"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".controller.MenuApp"
+            android:exported="false" />
+        <activity
+            android:name=".controller.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

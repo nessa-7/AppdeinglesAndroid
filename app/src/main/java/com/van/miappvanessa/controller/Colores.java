@@ -1,15 +1,13 @@
-package com.van.miappvanessa;
+package com.van.miappvanessa.controller;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.van.miappvanessa.R;
 
 public class Colores extends AppCompatActivity {
 
@@ -22,7 +20,7 @@ public class Colores extends AppCompatActivity {
     }
 
     public void volverMenu(View view){
-        Intent volver = new Intent(Colores.this,MenuApp.class);
+        Intent volver = new Intent(Colores.this, MenuApp.class);
         startActivity(volver);
     }
 

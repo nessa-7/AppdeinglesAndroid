@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo6"
     android:orientation="vertical"
-    tools:context=".Pregunta3">
+    tools:context=".controller.Pregunta3">
 
     <Button
         android:onClick="sonarPurple"

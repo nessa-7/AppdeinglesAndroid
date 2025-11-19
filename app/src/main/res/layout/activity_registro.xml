@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo4"
+    tools:context=".controller.Registro">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloingreso"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/purple"
+        />
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/nombre"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edNombre"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/nick"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edNick"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/edad"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edEdad"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/colegio"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <Spinner
+            android:id="@+id/spColegios"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:entries="@array/colegios"
+            android:background="@color/lila"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/preguntarb"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <RadioGroup
+            android:id="@+id/rgGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:textColor="@color/white"
+            >
+
+            <RadioButton
+                android:id="@+id/rbFemenino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+            <RadioButton
+                android:id="@+id/rbMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/enviar"
+        android:textSize="30sp"
+        android:backgroundTint="@color/lila"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>

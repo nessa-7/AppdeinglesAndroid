@@ -1,4 +1,4 @@
-package com.van.miappvanessa;
+package com.van.miappvanessa.controller;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.van.miappvanessa.R;
 
 public class Pregunta5 extends AppCompatActivity {
 
@@ -35,7 +37,7 @@ public class Pregunta5 extends AppCompatActivity {
         sonido = MediaPlayer.create(Pregunta5.this,R.raw.sonidocorrecto);
         sonido.start();
 
-        Intent siguiente = new Intent(Pregunta5.this,Final.class);
+        Intent siguiente = new Intent(Pregunta5.this, Final.class);
         startActivity(siguiente);
     }
 

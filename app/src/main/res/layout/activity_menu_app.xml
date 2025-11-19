@@ -7,7 +7,7 @@
     android:background="@drawable/fondo4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuApp">
+    tools:context=".controller.MenuApp">
 
     <ImageView
         android:layout_width="400dp"

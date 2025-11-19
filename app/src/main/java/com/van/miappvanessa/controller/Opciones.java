@@ -1,14 +1,12 @@
-package com.van.miappvanessa;
+package com.van.miappvanessa.controller;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.van.miappvanessa.R;
 
 public class Opciones extends AppCompatActivity {
 
@@ -19,16 +17,16 @@ public class Opciones extends AppCompatActivity {
     }
 
     public void irMenu(View view){
-        Intent siguiente = new Intent(Opciones.this,MenuApp.class);
+        Intent siguiente = new Intent(Opciones.this, MenuApp.class);
         startActivity(siguiente);
     }
 
     public void volverMenu(View view){
-        Intent volver = new Intent(Opciones.this,MainActivity.class);
+        Intent volver = new Intent(Opciones.this, MainActivity.class);
         startActivity(volver);
     }
     public void irPregunta1(View view){
-        Intent pregunta1 = new Intent(Opciones.this,Pregunta1.class);
+        Intent pregunta1 = new Intent(Opciones.this, Pregunta1.class);
         startActivity(pregunta1);
     }
 }
