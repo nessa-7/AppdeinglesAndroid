@@ -15,17 +15,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.van.miappvanessa.R;
 import com.van.miappvanessa.model.ConexionBd;
+import com.van.miappvanessa.model.Datos;
+import com.van.miappvanessa.model.Manager;
 
 public class Registro extends AppCompatActivity {
 
-    ConexionBd conexionbd;
-    SQLiteDatabase db;
+
     EditText edtNombre, edtNick, edtEdad;
     Spinner spColegios;
     RadioGroup rgGenero;
     RadioButton rbF, rbM;
 
     Button btnEnviar;
+
+    Manager manager;
 
 
     @Override
@@ -51,19 +54,31 @@ public class Registro extends AppCompatActivity {
 
                 String nombre = edtNombre.getText().toString();
                 String nick = edtNick.getText().toString();
-                String edad = edtEdad.getText().toString();
+                int edad = Integer.parseInt(edtEdad.getText().toString());
 
                 String colegio = spColegios.getSelectedItem().toString();
 
                 int generogroup = rgGenero.getCheckedRadioButtonId();
                 RadioButton rbSeleccionado = findViewById(generogroup);
                 String genero = rbSeleccionado.getText().toString();
+
                 Intent siguiente = new Intent(Registro.this, Opciones.class);
                 startActivity(siguiente);
 
-                conexionbd = new ConexionBd(Registro.this);
-                db = conexionbd.getWritableDatabase();
-                Toast.makeText(Registro.this, "Bd creada", Toast.LENGTH_SHORT).show();
+                manager = new Manager(Registro.this);
+
+                //pasamos los valores al pojo
+                Datos datos = new Datos(nombre, nick, edad, colegio, genero);
+
+                //llamamos al metodo insertar
+                long resul =  manager.insertData(datos);
+
+                if (resul>0){
+                    Toast.makeText(Registro.this, "Datos insertados", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Toast.makeText(Registro.this, "Error al insertar datos", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
